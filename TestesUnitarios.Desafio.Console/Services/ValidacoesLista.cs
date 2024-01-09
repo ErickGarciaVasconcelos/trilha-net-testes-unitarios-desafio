@@ -29,5 +29,17 @@ namespace TestesUnitarios.Desafio.Console.Services
         {
             return lista.Min();
         }
+
+        public List<int> MultiplicarElementosPorDois(List<int> lista)
+        {
+            var resultado = new List<int>();
+
+            foreach (var elemento in lista)
+            {
+                resultado.Add(elemento * 2);
+            }
+
+            return resultado;
+        }
     }
 }

@@ -19,5 +19,9 @@ namespace TestesUnitarios.Desafio.Console.Services
             var termina = texto.EndsWith(textoProcurado);
             return termina;
         }
+        public bool ListaContemDeterminadoNumero(List<int> lista, int numero)
+        {
+            return lista.Contains(numero);
+        }      
     }
 }
